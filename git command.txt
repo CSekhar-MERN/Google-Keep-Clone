@@ -45,3 +45,12 @@ then go to git hub account and paste key
 
 13. After genrating key you can push your code-
 git push origin master
+
+14. After you all done and adding few chnages into your project and adding some new features and want to update in github account also then use these 3 - 4 comman only are👇
+
+
+	>git status 
+        >git add .
+	>git commit -m"message"
+	>git push origin master
+	>git status
