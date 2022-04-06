@@ -1,0 +1,47 @@
+Git command
+
+1. Path- cd "copy your project folder path and paste here by right click"
+
+2. Username- git config  --global user.name Sekhar (again use this same command for change username)
+
+3. Email- git config  --global user.email "ayushseghal321@gmail.com"
+
+4. Make gitignore file (or push or leave some unwanted file or module which is not more necessary to upload into github) - touch .gitignore
+
+5. Initialize your git project -git init(it makes a hidden folder into your project folder in your pc)
+
+6. Put your files in staging area- git add .
+
+7. For taking snap or in simple term making a copy of your project- git commit -m "Initial commit"
+
+8.For checking status- git status
+   		
+	(after git status if you show this msg👇)
+		
+		{on branch master 
+		nothing to commit, working  tree clean}
+
+	
+9. For uploading into github account- git remote add origin (then copy your account url from github and paste as it is without putting any brackets)
+
+10. Now you can generate ssh key for public use- ssh-keygen -t rsa -b 4096 -C "ayushseghal321@gmail.com"
+
+>enter
+>enter
+
+then copy this line(Your public key has been saved in /c/Users/ayush/.ssh/id_rsa.pub)
+
+11. for generating key- cat (paste your public key here) 
+
+>enter and copy the key and go to your git hub account and go to setting then SSH and GPG keys click new SSH key then put title and paste your copied key and click Add SSH Key.
+
+12. If any kind off error or showing invalid key then write these command which below one by one 
+
+- eval $(ssh-agent -s)
+- ssh_add ~/.ssh /id_rsa
+- clip < ~/.ssh/id_rsa.pub
+
+then go to git hub account and paste key
+
+13. After genrating key you can push your code-
+git push origin master
