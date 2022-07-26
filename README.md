@@ -1,0 +1,2 @@
+# Google-Keep-Clone
+In this project I have used HTML, CSS, JAVASCRIPT. From HTML and CSS  I have designed its UI or interface like its buttons, hover effect etc. and I have done CRUD operation using JAVASCRIPT and store the data completely in local storage, so in this clone application we can CREATE, READ, UPDATE and DELETE at any time because all the process will be done in your local storage. And by the way, it's something like google keep application.
